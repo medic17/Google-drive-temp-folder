@@ -1,4 +1,4 @@
 function getFile() {
-  var file = DriveApp.getFileById("1DjBmhDkNFTFMi2oIko2Aa3YG789DH6yH");
+  var file = DriveApp.getFileById("<your-file-ID>");
   file.setTrashed(true);
 }
